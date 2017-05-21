@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const spawn = require('cross-spawn')
+
+const sao = require.resolve('sao/bin/sao')
+
+const argv = process.argv.slice(2)
+const templatePath = path.dirname(require.resolve('template-bot/package'))
+argv.unshift(templatePath)
+spawn.sync(sao, argv, { stdio: 'inherit' })
