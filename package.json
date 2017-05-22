@@ -1,6 +1,6 @@
 {
   "name": "create-bot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Telegram bot generator",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "cross-spawn": "^5.1.0",
     "sao": "^0.19.7",
-    "template-bot": "^0.0.2"
+    "template-bot": "^0.0.3"
   },
   "devDependencies": {
     "eslint": "^3.7.0",
