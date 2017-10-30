@@ -23,7 +23,7 @@ create-bot my-bot
 cd my-bot
 ```
 
-Alternatively, if you have `yarn^0.24`, you can use the `yarn create` command:
+🔥 Alternatively, if you have `yarn^0.24` or later, you can use the `yarn create` command:
 
 ```bash
 yarn create bot my-bot
