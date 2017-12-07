@@ -5,7 +5,7 @@ CLI for fast Telegram Bot scaffolding.
 
 ## Install
 
-🔥 If you have installed `yarn` or `npm` you good to go without any extra installation!
+🔥 If you have installed `yarn v0.24+` or `npm v5+` you good to go without any extra installation!
 Just call `yarn create bot` or `npx create-bot`:
 
 ```bash
