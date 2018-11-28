@@ -9,7 +9,7 @@ CLI for fast Telegram Bot scaffolding.
 Just call `yarn create bot` or `npx create-bot`:
 
 ```bash
-npx create-bot cool-bot
+npm init bot cool-bot
 cd cool-bot
 ```
 
