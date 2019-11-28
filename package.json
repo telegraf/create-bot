@@ -1,13 +1,9 @@
 {
   "name": "create-bot",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Telegram bot generator",
-  "main": "index.js",
   "bin": {
     "create-bot": "./bin/create-bot"
-  },
-  "scripts": {
-    "test": "eslint ."
   },
   "engines": {
     "node": ">=8.5.0"
@@ -15,16 +11,6 @@
   "author": "Vitaly Domnikov <oss@vitaly.codes>",
   "license": "MIT",
   "dependencies": {
-    "cross-spawn": "^6.0.3",
-    "sao": "^0.22.8",
-    "template-bot": "^1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.9.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "sao": "^1.7.0"
   }
 }
